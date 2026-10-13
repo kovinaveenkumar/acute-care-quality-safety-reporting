@@ -1,0 +1,7 @@
+pandas>=2.2
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+xlsxwriter>=3.2
+openpyxl>=3.1
+pytest>=8.0

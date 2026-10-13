@@ -1,0 +1,12 @@
+rule_id,table_name,description,rows_affected,action
+ENC-01,encounter,Exact duplicate encounter rows,30,dropped
+ENC-02,encounter,Discharge earlier than admit (dates swapped),8,swapped back
+ENC-03,encounter,Age outside 0-110,5,age set to null (excluded from age-based stats)
+ENC-04,encounter,Missing discharge disposition,60,set to 'Unknown' (kept in denominators except where disposition exclusion applies)
+ENC-00,encounter,Rows loaded after cleaning,17809,from 17839 raw rows
+ED-01,ed_visit,ED departure before arrival,0,dropped
+EVT-01,safety_event,Exact duplicate event rows,25,dropped
+EVT-02,safety_event,Unit code not in standard form (case/spacing/aliases),40,mapped to standard unit_id
+EVT-03,safety_event,Missing reported_dt,15,kept; excluded from timeliness measures
+EVT-04,safety_event,Reported before event occurred,6,reported_dt set to event_dt
+EVT-05,safety_event,Event linked to an encounter that does not exist,0,link cleared

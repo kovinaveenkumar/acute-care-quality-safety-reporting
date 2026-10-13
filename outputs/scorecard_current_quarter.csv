@@ -1,0 +1,19 @@
+domain,measure_key,measure,target,direction,current,prior,year_ago,delta_vs_prior,trend,status
+Patient Safety,fall_rate,"Falls per 1,000 patient days",3.0,lower,1.955134801399465,4.393848611943279,3.6968576709796674,-2.438713810543814,improving,Green
+Patient Safety,fall_injury_rate,"Falls with injury per 1,000 patient days",1.0,lower,1.029018316526034,2.0970641102456558,1.9511193263503799,-1.0680457937196217,improving,Amber
+Patient Safety,med_event_rate,"Medication events per 1,000 patient days",4.5,lower,3.8073677711463265,4.293988416217296,4.004929143561306,-0.48662064507096936,improving,Green
+Patient Safety,clabsi_rate,"CLABSI per 1,000 central-line days",1.0,lower,2.1459227467811157,0.0,1.1049723756906078,2.1459227467811157,worsening,Red
+Patient Safety,cauti_rate,"CAUTI per 1,000 catheter days",1.3,lower,1.532958610117527,0.5032712632108707,1.9743336623889436,1.0296873469066563,worsening,Red
+Outcomes,readmit_30d_rate,30-day all-cause readmission rate (%),11.0,lower,11.945905334335086,11.78909952606635,11.29032258064516,0.1568058082687358,worsening,Amber
+Outcomes,readmit_30d_hf,"30-day readmission, heart failure (%)",20.0,lower,22.30769230769231,18.902439024390244,21.73913043478261,3.4052532833020663,worsening,Red
+Outcomes,mortality_oe,"Inpatient mortality, observed / expected",1.0,lower,0.910703479441487,0.919078893637295,0.9424326799608896,-0.008375414195808006,improving,Green
+Core Measures,sep1_rate,SEP-1-style sepsis bundle compliance (%),70.0,higher,69.3069306930693,58.51063829787234,65.59139784946237,10.796292395196964,improving,Amber
+Core Measures,ami_asa_rate,AMI aspirin within 24h of arrival (%),96.0,higher,94.73684210526315,100.0,95.71428571428572,-5.26315789473685,worsening,Amber
+Core Measures,hf_acei_rate,HF with LVSD: ACEI/ARB/ARNI at discharge (%),90.0,higher,97.1830985915493,87.6923076923077,91.66666666666666,9.490790899241603,improving,Green
+Core Measures,vte_ppx_rate,VTE prophylaxis by end of admission day 1 (%),92.0,higher,92.94294294294293,91.47851420247632,91.23307198859587,1.4644287404666159,improving,Green
+Emergency Department,ed_los_median,"ED median arrival-to-departure, discharged (min)",165.0,lower,160.34456520145,158.9840249423,157.63866222590002,1.3605402591499853,worsening,Green
+Emergency Department,ed_boarding_median,ED median admit-decision-to-departure (min),150.0,lower,125.95790506629166,126.93898228785,127.65345128691666,-0.981077221558337,improving,Green
+Emergency Department,ed_lwbs_rate,ED left without being seen (%),2.5,lower,2.021414990493345,1.8091942659416709,1.7410228509249184,0.2122207245516743,worsening,Green
+Quality Operations,event_report_24h,Safety events reported within 24h (%),80.0,higher,80.71428571428572,75.39267015706807,76.88172043010752,5.321615557217655,improving,Green
+Quality Operations,event_closed_30d,Safety events closed within 30 days (%),85.0,higher,100.0,96.8586387434555,99.46236559139786,3.1413612565444993,improving,Green
+Quality Operations,abstraction_on_time,Abstraction cases completed by due date (%),95.0,higher,88.58267716535433,70.5179282868526,89.64143426294821,18.06474887850173,improving,Amber

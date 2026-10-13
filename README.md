@@ -6,6 +6,16 @@ I built this end-to-end quality-reporting system for a fictional 124-bed communi
 
 Open `app/index.html` (double-click; no server or install needed). I wrote it as a multi-page command center in plain HTML/CSS/JS with hand-written SVG charts: executive overview with RAG tiles, measure explorer (control charts, unit heatmaps, definitions), safety-event workbench (filters, sort, timeline drawer, assign/close actions), abstraction case board (drag-and-drop), submission calendar, ED day-by-hour heatmap, generated insights, data-quality view, command palette (Cmd/Ctrl+K), dark mode and print. Demo actions are saved only in your browser. Data is exported by `make app` (`src/qsr/export_app_data.py`).
 
+## Screenshots
+
+| Overview | Measure explorer |
+|---|---|
+| ![Overview](docs/images/app-overview.png) | ![Measures](docs/images/app-measures-fall_rate.png) |
+| **Safety events** | **Abstraction board** |
+| ![Events](docs/images/app-events.png) | ![Abstraction](docs/images/app-abstraction.png) |
+
+![ED flow](docs/images/app-ed.png)
+
 ## What it produces
 
 | Deliverable | File | Audience |

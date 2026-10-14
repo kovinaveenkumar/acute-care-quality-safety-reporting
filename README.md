@@ -1,4 +1,4 @@
-# Hospital Quality & Patient Safety Reporting Pack
+# Acute Care Quality & Patient Safety Reporting Pack
 
 I built this end-to-end quality-reporting system for a fictional 124-bed community hospital to practise how a hospital quality team turns raw operational data into **trusted committee reports**: scorecards, control charts, safety-event tracking, chart-abstraction workflow and public-reporting status.
 
